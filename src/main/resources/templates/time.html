@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Time</title>
+</head>
+<body>
+<h1>Поточний час</h1>
+<p th:text="${formattedTime}"></p>
+<p>Часовий пояс: <span th:text="${timezone}"></span></p>
+</body>
+</html>
